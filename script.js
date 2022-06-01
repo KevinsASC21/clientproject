@@ -70,7 +70,7 @@ console.log("test");
 
 
 $(".search").click(function() {
-let userQuery = $(".search").val()
+let userQuery = $(".searchbar").val();
   
 $(".content").empty();
 getAnime(userQuery);
